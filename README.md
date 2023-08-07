@@ -23,7 +23,7 @@ conda activate SPML
 pip install -r requirements.txt
 ```
 
-## 💽 Preparing Datasets
+## 📖 Preparing Datasets
 ### Downloading Data
 #### PASCAL VOC
 
