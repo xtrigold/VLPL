@@ -95,7 +95,7 @@ python preproc/generate_observed_labels.py --dataset {DATASET}
 ```
 `{DATASET}` should be replaced by `pascal`, `coco`, `nuswide`, or `cub`.
 
-## 🔬 Training and Evaluation
+## 🦍 Training and Evaluation
 Run `main.py` to train and evaluate a model:
 ```
 python main.py -d {DATASET} -l {LOSS} -g {GPU} -m {model} -t {tempurature} -th {threshold}  -p {partical} -s {PYTORCH-SEED}
