@@ -102,9 +102,13 @@ python main.py -d {DATASET} -l {LOSS} -g {GPU} -m {model} -t {tempurature} -th {
 ```
 Command-line arguments are as follows:
 1. `{DATASET}`: The adopted dataset. (*default*: `pascal` | *available*: `pascal`, `coco`, `nuswide`, or `cub`)
-2. `{LOSS}`: The method used for training. (*default*: `EM_APL` | *available*: `bce`, `iun`, `an`, `EM`, or `EM_APL`)
+2. `{LOSS}`: The method used for training. (*default*: `EM_PL` | *available*: `bce`, `iun`, `an`, `EM`, `EM_APL`, or `EM_PL`)
 3. `{GPU}`: The GPU index. (*default*: `0`)
 4. `{PYTORCH-SEED}`: The seed of PyTorch. (*default*: `0`)
+5. `{model}`: The model of backbone. (*default*: `resnet50`| *available*: `resnet50`, `vit_clip`, `convnext_xlarge_22k`, or `convnext_xlarge_1k`)
+6. `{tempurature}`: the temperature scalar of the softmax function.
+7. `{threshold}`: the threshold for the positive pseudo-label. (*default*: `0.3`)
+8. `{partical}`: the percentage of the negative pseudo-label. (*default*: `0.0`)
 
 For example, to train and evaluate a model on the PASCAL VOC dataset using  EM loss+ VLPL, please run:
 ```
