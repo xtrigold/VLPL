@@ -125,5 +125,5 @@ python main.py -d pascal -l EM_PL
 
 ## Acknowledgement:
 Many thanks to the authors of [single-positive-multi-label](https://github.com/elijahcole/single-positive-multi-label) and [SPML-AckTheUnknown
-](https://github.com/Correr-Zhou/SPML-AckTheUnknown). Our scripts are highly based on their scripts. What's more, especially thank [Donghao Zhou] (https://github.com/Correr-Zhou), the author of SPML-AckTheUnknown. 
+](https://github.com/Correr-Zhou/SPML-AckTheUnknown). Our scripts are highly based on their scripts. What's more, especially thank [Donghao Zhou](https://github.com/Correr-Zhou), the author of SPML-AckTheUnknown. 
 
